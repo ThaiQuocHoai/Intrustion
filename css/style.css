@@ -462,6 +462,141 @@ header{
     margin: 0 20px;
 }
 
+.new .new__content h1{
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 40px;
+    color: #ff4f81;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.new .new__content p{
+    font-size: 17px!important;
+    margin-top: 1em;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 500;
+}
+
+.new__img1{
+    background-image: url("./../images/g7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    border: solid #dedede;
+}
+.new__img2{
+    background-image: url("./../images/g10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    border: solid #dedede;
+}
+
+.item__1{
+    padding: 0 5%;
+}
+
+.new .item__1 a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all .5s;
+}
+
+.new .item__1 a:hover{
+    color: #ff4f81;
+}
+
+.new .item__1 p{
+    font-size: 1em;
+    color: #ff4f81;
+    font-weight: 600;
+    margin: 1em 0;
+    letter-spacing: 1px;
+}
+
+.new .item__1 span{
+    margin: 1em 0 0;
+    color: #999999;
+    font-size: .9em;
+    line-height: 1.8em;
+}
+
+footer .item__1 h1{
+    font-size: 1.5em;
+    color: #ff4f81;
+    position: relative;
+    margin-bottom: 1.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+footer{
+    background: #141415;
+    padding: 4em 0;
+}
+
+footer .item__1 p{
+    color: #8b8b96;
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+
+footer .item__1 a{
+    text-decoration: none;
+    color: #8b8b96;
+    line-height: 2em;
+    margin-bottom: 2em;
+    transition: .5s ;
+}
+
+footer .item__1 a i{
+    color: #ff4f81;
+}
+
+footer .item__1 li{
+    list-style: none;
+}
+
+footer .item__1 a:hover{
+    color: #fff;
+}
+
+footer .item__2 li{
+    color: #8b8b96;
+}
+
+footer .item__2 li i{
+    border: 1px solid #8b8b96;
+    padding: 10px;
+}
+
+.item__2 .col-2{
+    padding: 0;
+}
+
+.item__2 .col-10{
+    padding: 0;
+}
+
+footer .item__3 h1{
+    font-size: 1.5em;
+    color: #ff4f81;
+    position: relative;
+    margin-bottom: 1.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
 @media screen and (max-width: 576px){
     .carousel-item .carousel-caption{
         margin-bottom: 0;
@@ -508,6 +643,58 @@ header{
         color: #999;
         line-height: 1.8em  ;
     }
+}
+
+.item__3 input{
+    width: 500px;
+    height: 50px;
+    padding: 0 10px;
+    outline: none;
+    padding: 14px;
+    background: #fff;
+    font-size: 0.9em;
+    color: #888;
+    width: 70%;
+    margin-right: 1em;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.item__3 input:focus{
+    outline: none;
+}
+
+.item__3 .btn{
+    outline: none;
+    padding: 12px 0;
+    background: #ff4f81;
+    font-size: 1em;
+    color: #fff;
+    width: 20%;
+    height: 50px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0!important;
+    transition: all .5s;
+}
+
+.item__3 .btn:hover{
+    background-color: #ec1955;
+}
+
+.writer span{
+    letter-spacing: 1px;
+}
+
+.writer span a{
+    text-decoration: none;
+    color: #ff4f81;
+    transition: all .5s;
+}
+
+.writer span a:hover{
+    color: white;
 }
 
 @media screen and (max-width: 1054px){
